@@ -11,7 +11,6 @@ public class input_Taker {
 
 		System.out.print("Enter the size of array: ");
 		n = pen.nextInt();
-		System.out.println(n);
 		
 		String[] title_category = new String[n];
 		for(int i =0; i<n; i++) {
