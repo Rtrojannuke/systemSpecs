@@ -9,11 +9,10 @@ public class arr_taker {
 		String[] categories = mub.categories_array();
 		int size = mub.n;
 		for(int i=0; i<size; i++) {
-			System.out.println(title[i] + " ");
-			for (int j =0; j<size; j++) {
-				System.out.print(categories[j] + " ");
-			}
+			System.out.print(title[i] + " " + categories[i]);
+			System.out.println();
 		}
+		
 	
 	}
 	
